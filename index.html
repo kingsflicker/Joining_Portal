@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style_index.css">
+    <style>
+        .Projects {
+            display: inline-block; /* Make sure both spans are inline-block */
+            margin-right: 10px; /* Adjust as needed for spacing between items */
+        }
+    </style>
 </head>
 
 
@@ -27,7 +33,7 @@
 
 
 
-<section>
+<!-- <section id="Projects">
     
     <h3><u>Projects</u></h3>
     <span id="Project-1" class="Projects">
@@ -38,12 +44,21 @@
         Project-2
     
     </span>
-</section>
+</section> -->
 
+
+<section id="Projects">
+    <h3 id="P-space"><u>Projects</u></h3>
+    
+    <!-- Adjusted structure to place Project-2 before Project-1 -->
+    <span id="Project-1" class="Projects">Project-1</span>
+    <span id="Project-2" class="Projects">Project-2</span>
+
+</section>
 
 <section>
     <h3><u>Get Started with King's Flicker:</u></h3>
-    <p>Are you ready to elevate your project with <b><u>Web Development</u></b>, <b><u>PCB Design</u></b>, and <b><u>Chip Design</u></b> solutions? We are here to help! Whether you have a clear vision or need expert guidance, our team is dedicated to turning your ideas into reality.</p>
+    <p id="policy">Are you ready to elevate your project with <b><u>Web Development</u></b>, <b><u>PCB Design</u></b>, and <b><u>Chip Design</u></b> solutions? We are here to help! Whether you have a clear vision or need expert guidance, our team is dedicated to turning your ideas into reality.</p>
     <!-- <h4>Apply:</h4> -->
      <a href="/apply.html" target="-main" color="red">Click here to join us </a>
 
@@ -61,8 +76,9 @@
 
     <footer>
         <hr>
-        <h4>Contact Us:</h4>
-        <p>+923xxxxxxxxx | kingsflicker@gmail.com</p>
+        <h4 id="contact">Contact Us:</h4>
+        <p>+923xxxxxxxxx</p>
+        <p id="mail"><u>kingsflicker@gmail.com</u></p>
         
         <!-- <p>kingsflicker@gmail.com</p> -->
         </footer>

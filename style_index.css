@@ -3,17 +3,22 @@ header {
     h1 {
         color: #01204E ;
         text-align:center;
+        margin-top: -15px ;
     }
 
     p {
         color: #028391;
         text-align:center;
+        margin-top: -15px ;
     }
+    
+    
    
 }
 
 article {
     color: #01204E ;
+    margin-top:-10px ;
 }
 footer {
     background-color: #FEAE6F ;
@@ -24,6 +29,13 @@ footer {
     p {
         color: #028391;
     }
+    #contact {
+        margin-bottom: 20px ;
+        margin-top: -3px ;
+    }
+    #mail {
+        margin-top: -15px ;
+    }
 }
 
 main {
@@ -32,9 +44,23 @@ main {
     h3 {
         color:rgb(172, 159, 163) ;
     }
-    span {
-        /* background-color: black; */
-        color:black ;
+    #Project-1,#Project-2 {
+        height: 100px ;
+        width: 100px ;
+        background-color:darkgrey ;
+        margin-left: 5px ;
+    }
+    #Projects {
+        height: 150px ;
+        width: 260px ;
+        background-color: #FEAE6F ;
+        text-align:center ;
+    }
+    #P-space {
+        margin-bottom: 2px ;
+    }
+    #policy {
+        margin-top: -10px ;
     }
 }
 
