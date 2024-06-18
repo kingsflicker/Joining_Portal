@@ -2,11 +2,14 @@ header {
     background-color: #FEAE6F ;
     h1 {
         color: #01204E ;
+        text-align:center;
     }
 
     p {
         color: #028391;
+        text-align:center;
     }
+   
 }
 
 article {
