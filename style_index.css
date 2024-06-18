@@ -1,0 +1,49 @@
+header {
+    background-color: #FEAE6F ;
+    h1 {
+        color: #01204E ;
+    }
+
+    p {
+        color: #028391;
+    }
+}
+
+article {
+    color: #01204E ;
+}
+footer {
+    background-color: #FEAE6F ;
+    h4{
+        color: #01204E ;
+    }
+
+    p {
+        color: #028391;
+    }
+}
+
+main {
+    background-color : #F6DCAC ;
+
+    h3 {
+        color:rgb(172, 159, 163) ;
+    }
+    span {
+        /* background-color: black; */
+        color:black ;
+    }
+}
+
+body {
+    background-color: rgb(172, 159, 163);
+}
+
+section {
+    p {
+        color: #01204E ;
+        /* a { */
+            /* color:red ; */
+        /* } */
+    }
+}
