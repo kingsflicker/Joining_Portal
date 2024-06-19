@@ -5,14 +5,44 @@ header {
         text-align:center;
         margin-top: -15px ;
     }
-
+   
     p {
         color: #028391;
         text-align:center;
         margin-top: -15px ;
     }
-    
-    
+   
+    #home, #tutorials, #services, #feedback {
+            display: inline-block ;
+            font-size: 16px ;
+            text-decoration: none ;
+            margin-left: 20px ;
+            margin-top: 15px ;
+    }
+    #home, #tutorials, #services {
+        margin-right: 2px ;
+    }
+    /* #feedback {
+        margin-right: 630px ;
+        
+    } */
+    #s-in, #s-button {
+        height: 20px;
+        border: 2px solid black ;
+        border-radius: 10px ;
+    }
+    #a-right {
+        text-align: right ;
+        margin-right: 15px ;
+        margin-top: -20px ;
+    }
+    #navbar {
+        border: 4px solid black;
+        margin-left: 10px ;
+        margin-right: 10px ;
+        background-color:#2fb6c5;
+        border-radius: 20px;
+    }
    
 }
 
@@ -48,16 +78,22 @@ main {
         height: 100px ;
         width: 100px ;
         background-color:darkgrey ;
-        margin-left: 5px ;
+        /* margin-left: 3px ; */
+        display: inline-block ;
+        border: 1px solid black ;
     }
     #Projects {
-        height: 150px ;
-        width: 260px ;
+        height: 147px ;
+        width: 250px ;
         background-color: #FEAE6F ;
+        
+        border: 2px solid black ;
         text-align:center ;
+        margin-left: 10px ;
     }
     #P-space {
         margin-bottom: 2px ;
+        margin-top: 2px ;
     }
     #policy {
         margin-top: -10px ;

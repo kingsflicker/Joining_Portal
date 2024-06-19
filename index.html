@@ -5,18 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style_index.css">
-    <style>
+    <!-- <style>
         .Projects {
             display: inline-block; /* Make sure both spans are inline-block */
             margin-right: 10px; /* Adjust as needed for spacing between items */
         }
-    </style>
+    </style> -->
 </head>
 
 
 <body>
+   
     <header>
-        <p><img src="/king.jpg" king height="200"> </p>
+        <br>
+        <div id="navbar">
+            <a id="home" href="/index.html"  >Home </a>
+            <a id="tutorials" href="/tutorials.html" target="-main" >Tutorials</a>
+            <a id="services" href="/services.html" target="-main" >Services</a>
+            <a id="feedback" href="/feedback.html" target="-main" >Feedback</a>
+            <p id="a-right">
+            <input id="s-in" type="text" placeholder="Search this site">
+            <button id="s-button" type="button">Search</button> 
+            </p>
+        </div>
+        <br>
+        <br>
+        <p id="logo"><img src="/king.jpg" king height="200"> </p>
         <h1>King's Flicker_Designs</h1>
         <p>Web Developer <b>|</b> PCB Designer <b>|</b> Chip Designer</p>
         <hr>
@@ -46,13 +60,13 @@
     </span>
 </section> -->
 
-
+<br>
 <section id="Projects">
     <h3 id="P-space"><u>Projects</u></h3>
     
     <!-- Adjusted structure to place Project-2 before Project-1 -->
-    <span id="Project-1" class="Projects">Project-1</span>
-    <span id="Project-2" class="Projects">Project-2</span>
+    <div id="Project-1" class="Projects">Project-1</div>
+    <div id="Project-2" class="Projects">Project-2</div>
 
 </section>
 
